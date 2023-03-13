@@ -4,11 +4,14 @@
  * in the license file that is distributed with this file.
  */
 
-//@ts-check
+
+// @ts-ignore
 import * as d3 from "d3";
 import { MAX_UNSIGNED_VALUE } from "../node_modules/@xtuc/long/index.js";
 import * as ModuleParseError from "../node_modules/webpack/lib/ModuleParseError.js";
 import { addHandlersSelection } from "./ui-input.js";
+
+//@ts-check
 
 /**
  * @typedef {{
@@ -286,13 +289,9 @@ export async function render(state, mod, dataView, windowSize, showAxisLabels) {
                 .attr("y2", corners[c2][1])
                 .attr("name", names[idx])
                 .on("mouseover", function (d) {
-                    d3.select(this).classed("hover", true);
-                    d3.select(this).classed("axis", false);
                     tooltip.show(expressions[idx]);
                 })
                 .on("mouseout", function (d) {
-                    d3.select(this).classed("axis", true);
-                    d3.select(this).classed("hover", false);
                     tooltip.hide();
                 })
                 .classed(axisClasses[idx], true)
