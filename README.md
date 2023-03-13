@@ -1,5 +1,7 @@
 # Ternary Plot Mod for TIBCO Spotfire®
 
+<img src="assets/ternary.png" width="60%"/>
+
 A barycentric plot on three variables which sum to a constant to graphically depicts the ratios of the three variables as positions in an equilateral triangle.
 
 It is often used in physical chemistry, petrology, mineralogy, metallurgy, and other physical sciences to show the compositions of systems composed of three species.
