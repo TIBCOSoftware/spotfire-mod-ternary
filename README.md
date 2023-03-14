@@ -8,6 +8,8 @@ It is often used in physical chemistry, petrology, mineralogy, metallurgy, and o
 
 ## Installation & Use
 
+[Download latest version](https://github.com/TIBCOSoftware/spotfire-mod-ternary/releases)
+
 The [Wiki](https://github.com/TIBCOSoftware/spotfire-mod-ternary/wiki) contains step-by-step instruction on how to install and use this Mod in TIBCO Spotfire®.
 
 ## Building the Project
